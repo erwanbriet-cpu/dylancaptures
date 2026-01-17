@@ -8,6 +8,8 @@ copyright = "© 2026 Dylan Captures"
 
 [params]
   colorScheme = "congo" 
+  relativeURLs = true
+  canonifyURLs = true
   accentColor = "neutral"
   list_layout = "blog"
 
