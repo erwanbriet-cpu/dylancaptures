@@ -1,0 +1,57 @@
+paginate = 5
+baseURL = "https://dylancaptures.netlify.app/"
+languageCode = "fr"
+theme = "congo"
+copyright = "© 2026 Dylan Captures"
+
+[params]
+  # --- DESIGN & COULEURS ---
+  colorScheme = "congo" 
+  accentColor = "neutral" # Force le gris/noir comme couleur principale
+  list_layout = "blog"    # Affiche les listes comme un blog
+
+  # --- INFOS AUTEUR ---
+  [params.author]
+    name = "Dylan"
+    image = "dylan.png"
+    links = [
+      { email = "mailto:dylan.boulard28@gmail.com" },
+      { instagram = "https://www.instagram.com/dylancaptures_/" }
+    ]
+
+  # --- PAGE D'ACCUEIL ---
+  [params.homepage]
+    showRecent = true
+    cardView = true
+    limit = 5
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Qui suis-je ?"
+    url = "/about/"
+    weight = 15
+
+  [[menu.main]]
+    name = "Galerie"
+    url = "/galerie/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Matériel"
+    url = "/materiel/"
+    weight = 60
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 70
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
