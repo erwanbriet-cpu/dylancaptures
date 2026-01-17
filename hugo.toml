@@ -1,6 +1,6 @@
 [pagination]
   pagerSize = 5
-baseURL = "https://696c0f30d9c37300086f188d--thunderous-bublanina-68f8ff.netlify.app"
+baseURL = "https://thunderous-bublanina-68f8ff.netlify.app"
 languageCode = "fr"
 theme = "congo"
 copyright = "© 2026 Dylan Captures"
