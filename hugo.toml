@@ -1,17 +1,16 @@
 [pagination]
   pagerSize = 5
+
 baseURL = "/"
 languageCode = "fr"
 theme = "congo"
 copyright = "© 2026 Dylan Captures"
 
 [params]
-  # --- DESIGN & COULEURS ---
   colorScheme = "congo" 
-  accentColor = "neutral" # Force le gris/noir comme couleur principale
-  list_layout = "blog"    # Affiche les listes comme un blog
+  accentColor = "neutral"
+  list_layout = "blog"
 
-  # --- INFOS AUTEUR ---
   [params.author]
     name = "Dylan"
     image = "dylan.png"
@@ -20,7 +19,6 @@ copyright = "© 2026 Dylan Captures"
       { instagram = "https://www.instagram.com/dylancaptures_/" }
     ]
 
-  # --- PAGE D'ACCUEIL ---
   [params.homepage]
     showRecent = true
     cardView = true
@@ -31,22 +29,18 @@ copyright = "© 2026 Dylan Captures"
     name = "Accueil"
     url = "/"
     weight = 10
-
   [[menu.main]]
     name = "Qui suis-je ?"
     url = "/about/"
     weight = 15
-
   [[menu.main]]
     name = "Galerie"
     url = "/galerie/"
     weight = 20
-
   [[menu.main]]
     name = "Matériel"
     url = "/materiel/"
     weight = 60
-
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
@@ -56,6 +50,3 @@ copyright = "© 2026 Dylan Captures"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-[params]
-  # ... tes autres params ...
-  disableFingerprinting = true
