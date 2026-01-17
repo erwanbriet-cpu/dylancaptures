@@ -56,3 +56,6 @@ copyright = "© 2026 Dylan Captures"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[params]
+  # ... tes autres params ...
+  disableFingerprinting = true
