@@ -1,4 +1,5 @@
-paginate = 5
+[pagination]
+  pagerSize = 5
 baseURL = "https://dylancaptures.netlify.app/"
 languageCode = "fr"
 theme = "congo"
