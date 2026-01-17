@@ -1,23 +1,18 @@
 baseURL = "https://thunderous-bublanina-68f8ff.netlify.app"
 languageCode = "fr"
 theme = "congo"
-copyright = "© 2026 Dylan Captures"
+paginate = 10
 
 [pagination]
   pagerSize = 10
 
 [params]
-  colorScheme = "congo" 
+  colorScheme = "congo"
   accentColor = "neutral"
   list_layout = "blog"
 
   [params.author]
     name = "Dylan"
-    image = "dylan.png"
-    links = [
-      { email = "mailto:dylan.boulard28@gmail.com" },
-      { instagram = "https://www.instagram.com/dylancaptures_/" }
-    ]
 
   [params.homepage]
     showRecent = true
@@ -30,23 +25,10 @@ copyright = "© 2026 Dylan Captures"
     url = "/"
     weight = 10
   [[menu.main]]
-    name = "Qui suis-je ?"
-    url = "/about/"
-    weight = 15
-  [[menu.main]]
     name = "Galerie"
     url = "/galerie/"
     weight = 20
   [[menu.main]]
-    name = "Matériel"
-    url = "/materiel/"
-    weight = 60
-  [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 70
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
