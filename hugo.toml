@@ -2,10 +2,9 @@
   pagerSize = 5
 
 baseURL = "https://thunderous-bublanina-68f8ff.netlify.app"
-relativeURLs = true
-canonifyURLs = true
 languageCode = "fr"
 theme = "congo"
+# ... reste du fichier
 copyright = "© 2026 Dylan Captures"
 
 [params]
