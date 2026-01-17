@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --theme congo --gc --minify --environment production"
+  command = "hugo --gc --minify"
   publish = "public"
 
 [build.environment]
